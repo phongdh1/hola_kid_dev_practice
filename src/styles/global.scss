@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+  font-family: 'iciel-cadena';
+  src: url(../../public/assets/fonts/iCielCadena.otf);
+}
+a {
+  @apply text-blue-700;
+}
+
+a:hover {
+  @apply border-b-2 border-blue-700;
+}
+.content p {
+  @apply my-6;
+}
+
+.content ul {
+  @apply my-6;
+}
+
+.text-cyellow {
+  color: #ffcb1f;
+  font-weight: 700;
+  font-size: 50px;  
+}
+
+.text-content {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.w-100{
+  width: 100%;
+}
+.max-w14{
+  max-width: 14rem;
+}
+
+body {
+  font-family: 'iciel-cadena';
+  background-position: center;
+  background-image: url(../../public/assets/images/BG.png);
+  background-size: cover;
+  font-size: 22px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'iciel-cadena';
+  color: white;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h2 {
+  
+}
